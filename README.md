@@ -32,6 +32,3 @@ protected static $password = "";
 
 3. You're all set! Launch the project on your local server.
 
----
-
-Let me know if you'd like a version with markdown styling for GitHub README or project documentation!
