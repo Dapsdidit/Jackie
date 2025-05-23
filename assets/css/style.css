@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.twt-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.twt-login {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.join-now-content {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.join-now-btn {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8E272E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.join-now-btn:hover {
+    background-color: #8E272E;
+}
+
+.twt-features {
+    margin-top: 40px;
+}
+
+/* Additional styles for your features section if needed */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .twt-login {
+        width: 80%;
+    }
+}
+.logos-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff; /* Set your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px; /* Set your desired width for the logos */
+    height: auto; /* Maintain aspect ratio */
+}
