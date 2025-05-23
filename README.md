@@ -1,7 +1,3 @@
-Sure! Here's a clearer and more polished version of your description:
-
----
-
 Built with PHP in **OOP (Object-Oriented Programming)** style, this project uses a **MySQL database** for data management. It incorporates **AJAX** and **jQuery** to handle dynamic actions like follow/unfollow, likes, user searches, and interactive popups (e.g., comments, user lists) without page reloads.
 
 ---
